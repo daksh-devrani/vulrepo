@@ -1,0 +1,16 @@
+{
+  "name": "vulrepo",
+  "version": "1.0.0",
+  "description": "Sample vulnerable Node.js application for Snyk security scanning demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "express": "4.16.0",
+    "lodash": "4.17.15",
+    "minimist": "1.2.0"
+  }
+}
